@@ -61,3 +61,43 @@ input[type=submit]{
 #submit:hover{
     background-color: #ffb20a;
 }
+.grid{
+  display: flex;
+  margin: 70px;
+}
+.icon{
+  margin-right: 40px;
+  text-align: center;
+  color: darkorange;
+}
+.one{
+  margin-right: 65px;
+}
+#how-it-works{
+  margin: 20px auto;
+  max-width: 560px;
+}
+#pricing{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.product{
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  border: 1px solid black;
+  margin: 10px;
+  width: calc(100% / 3);
+  text-align: center;
+  align-items: center;
+}
+.level{
+  background-color: grey;
+  width: 100%;
+  color: black;
+  padding: 15px 0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
