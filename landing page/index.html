@@ -9,28 +9,48 @@
 </head>
 <body>
     <header id="header-img">
-        <img src="" alt="" id="header-img">
+       <div class="image"> <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="" id="header-img"></div>
+        <div> 
         <nav id="nav-bar">
             <ul>
-                <li id="nav-link"><a href="#">Home</a></li>
-                <li id="nav-link"><a href="#">main</a></li>
-                <li id="nav-link"><a href="#">footer</a></li>
+                <li class="nav-link"><a href="#nav-link">Features</a></li>
+                <li class="nav-link"><a href="#themain">How it works</a></li>
+                <li class="nav-link"><a href="#footer">Pricing</a></li>
             </ul>
         </nav>
+      </div>
     </header>
-    <main>
-        <video width="320" height="240" controls>
-            <source src="movie.mp4" type="video/mp4">
-        </video>
-        <form action="https://www.freecodecamp.com/email-submit" id="form">
+    <main id="themain">
+        <form action="https://www.freecodecamp.com/email-submit" method="post" id="form">
+            <h1>Handcrafted, home-made masterpieces </h1>
             <div>
-                <label for="email">Email</label>
+                <label for="email"></label>
                 <input type="email" placeholder="Enter your email" required>
             </div>
             <div>
-                <input type="submit">
+                <input type="submit" value="Get started"id="submit">
             </div>
+            <!-- <video width="320" height="240" controls>
+                <source src="movie.mp4" type="video/mp4">
+            </video> -->
         </form>
+        <div class="products" id="features">
+            <div class="materials">
+                <img src="" alt="">
+                <h2>Premium Materials</h2>
+                <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+            </div>
+            <div class="shipping">
+                <img src="" alt="">
+                <h2>Fast shipping</h2>
+                <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+            </div>
+            <div class="quality">
+                <img src="" alt="">
+                <h2>Quality Assurance</h2>
+                <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+            </div>
+        </div>
     </main>
 </body>
 </html>

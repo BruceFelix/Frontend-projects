@@ -1,4 +1,63 @@
-form{
-    position: fixed;
-    top: 0;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+}
+header{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+header img{
+  width: 400px;
+  padding: 10px ;
+}
+.image{
+  width: 50%;
+  float: left;
+}
+nav{
+  position: absolute;
+  float: right;
+  right: 30px
+}
+ul{
+  list-style-type: none;
+  display: inline-block;
+}
+li{
+  display: inline-block;
+  padding: 10px 20px; 
+}
+li a{
+  text-decoration: none;
+  color: black;
+ font-size: 20px
+}
+#themain{
+  margin: 70px auto;
+  max-width: 1000px;    
+}
+h1,form {
+    text-align: center;
+}
+input[type=email]{
+    margin: 20px;
+    width: 300px;
+    padding: 5px;
+    border: 1px solid black;
+}
+input[type=submit]{
+    background-color: #f1c40f;
+    text-transform: uppercase;
+    color: black;
+    font-size: large;
+    font-weight: 900;
+    border: none;
+    padding: 8px 9px;
+}
+#submit:hover{
+    background-color: #ffb20a;
 }
