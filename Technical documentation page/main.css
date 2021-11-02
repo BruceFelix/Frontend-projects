@@ -1,0 +1,44 @@
+/* Global styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+}
+
+/* nav-bar styles */
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+#navbar{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 100vh;
+    background-color: blue;
+}
+.sections{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    position: absolute;
+    left: 270px;
+}
+@media screen and (max-width: 700px) {
+    .sections{
+        width: 100%;
+    }
+    
+}
+.main-section{
+    background-color: blueviolet;
+}
