@@ -13,19 +13,19 @@
             <nav id="navbar">
                 <header>programming languages</header>
                 <div class="nav-links">
-                    <a class="nav-link" href="#programming">Programming languages</a>
-                    <a class="nav-link" href="#python_programming">Python language</a>
-                    <a class="nav-link" href="#java_programming">Java language</a>
-                    <a class="nav-link" href="#ruby_programming">Ruby language</a>
-                    <a class="nav-link" href="#go_programming">Go language</a>
-                    <a class="nav-link" href="#cplusplus_programming">C++ lanugage</a>
+                    <a class="nav-link" href="#Programming">Programming</a>
+                    <a class="nav-link" href="#Python">Python</a>
+                    <a class="nav-link" href="#Java_Programming">Java Programming</a>
+                    <a class="nav-link" href="#Ruby_Programming">Ruby Programming</a>
+                    <a class="nav-link" href="#Go_Programming">Go Programming</a>
+                    <a class="nav-link" href="#C++_Programming">C++ Programming</a>
                 </div>
             </nav>
         </div>
         <div class="sections">
             <div class="grey"></div>
-            <section class="main-section">
-                <header id="programming" > Programmming</header>
+            <section class="main-section" id="Programming">
+                <header>Programming</header>
                 <div class="description">
                     <p>
                         Programming is, quite literally, all around us. From the take-out we order,
@@ -47,8 +47,8 @@
                     </ol>
                 </div>
             </section>
-            <section class="main-section">
-                <header id="python" >Python</header>
+            <section class="main-section" id="Python">
+                <header>Python</header>
                 <div class="description">
                     <p>
                         Python is an interpreted, object-oriented, high-level programming language with dynamic semantics
@@ -57,11 +57,15 @@
                         Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very
                         attractive for Rapid Application Development, as well as for use as a scripting or glue language to 
                         connect existing components together.
-                    </p>
+                    <h4>Example</h4>
+                    <code> <i>
+                        thislist = ["apple", "banana", "cherry", "apple", "cherry"] <br>
+                        print(thislist)</i>
+                    </code>
                 </div>
             </section>
-            <section class="main-section">
-                <header id="java_programming" >Java Programmming </header>
+            <section class="main-section" id="Java_Programming">
+                <header>Java Programming </header>
                 <div class="description">
                     <p>
                         Java is among the most popular programming languages out there, mainly because of how versatile and compatible it is. 
@@ -71,10 +75,28 @@
                         development. As of 2019, 88% market share of all smartphones run on Android, the mobile operating system written in Java.
                         Knowing Java opens a great deal of doors for you as a developer.
                     </p>
+                    <h4>Example</h4>
+                    <code><i>
+                        class Main {<br>
+                            <br>
+                            public static void main(String[] args) {<br>
+                              <br>
+                              System.out.println("Enter two numbers");<br>
+                              int first = 10;<br>
+                              int second = 20;<br>
+                              <br>
+                              System.out.println(first + " " + second);<br>
+                            <br>
+                              // add two numbers <br>
+                              int sum = first + second;<br>
+                              System.out.println("The sum is: " + sum);<br>
+                            } <br>
+                          }</i>
+                    </code>
                 </div>
             </section> 
-            <section class="main-section">
-                <header id="ruby_programming" >Ruby Programmming </header>
+            <section class="main-section" id="Ruby_Programming">
+                <header>Ruby Programming </header>
                 <div class="description">
                     <p>
                         Ruby is a general-purpose language that is still popular and in high demand in the marketplace, as it’s more commonly used in Rails applications. 
@@ -82,10 +104,18 @@
                     <p>
                         Concise and readable, it is easy to pick up but also plenty powerful. Companies like Twitter, Soundcloud, Goodreads, and Kickstarter got their products off the ground with Ruby.
                     </p>
+                    <h4>Example</h4>
+                    <code>
+                        def sum_eq_n?(arr, n) <br>
+                            return true if arr.empty? && n == 0<br>
+
+                            arr.product(arr).reject { |a,b| a == b }.any? { |a,b| a + b == n }<br>
+                        end<br>
+                    </code>
                 </div>
             </section>
-            <section class="main-section">
-                <header id="go_programming" >Go Programmming </header>
+            <section class="main-section" id="Go_Programming">
+                <header>Go Programming </header>
                 <div class="description">
                     <p>
                         Go (or Golang) is an open source programming language designed to build fast, reliable, and efficient software at scale.                </p>
@@ -95,10 +125,20 @@
                         It is the language of Cloud Native infrastructure and software development. As Go’s popularity and adoption continue
                         to increase, we’ll see even greater usage and more creative implementations of the language!
                     </p>
+                    <h4>Example</h4>
+                    <code>
+                        package main  <br>
+
+                        import "fmt" <br>
+
+                        func main() {  <br>
+                            fmt.Println("hello world") <br>
+                        }
+                    </code>
                 </div>
             </section>
-            <section class="main-section">
-                <header id="cplusplus_programming" >C++ Programmming </header>
+            <section class="main-section" id="C++_Programming">
+                <header>C++ Programming </header>
                 <div class="description">
                     <p>
                         C++ is a powerful general-purpose programming language. It can be used to develop operating systems, browsers, games, 
@@ -108,6 +148,18 @@
                     <p>
                         Our C++ programming tutorial will guide you to learn C++ programming one step at a time.
                     </p>
+                    <h4>Example</h4>
+                    <code>
+                        // Your First C++ Program <br>
+
+                        #include <iostream> <br>
+                        
+                        int main() { <br>
+                            std::cout << "Hello World!"; <br>
+                            return 0; <br>
+                        }
+
+                    </code>
                 </div>
             </section>
         </div>
