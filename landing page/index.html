@@ -1,123 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
-    <title>Web-store</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <title>Product landing page</title>
 </head>
 <body>
-    <div id="page-wrapper">
-      <header id="header">
-        <div class="logo">
-          <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="original trombones logo" />
-        </div>
-    
-        <nav id="nav-bar">
-          <ul>
-            <li><a class="nav-link" href="#features">Features</a></li>
-            <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
-            <li><a class="nav-link" href="#pricing">Pricing</a></li>
-          </ul>
-        </nav>
-      </header>
-    
-      <div class="container"></div>
-    
-      <section id="hero">
-        <h2>Handcrafted, home-made masterpieces</h2>
-        <form id="form" action="https://www.freecodecamp.com/email-submit">
-          <input name="email" id="email" type="email" placeholder="Enter your email address" required />
-          <input id="submit" type="submit" value="Get Started" class="btn" />
-        </form>
-      </section>
-    
-      <div class="container">
-        <section id="features">
-          <div class="grid">
-            <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
-            <div class="desc">
-              <h2>Premium Materials</h2>
-              <p>
-                Our trombones use the shiniest brass which is sourced locally. This
-                will increase the longevity of your purchase.
-              </p>
-            </div>
-          </div>
-          <div class="grid">
-            <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
-            <div class="desc">
-              <h2>Fast Shipping</h2>
-              <p>
-                We make sure you recieve your trombone as soon as we have finished
-                making it. We also provide free returns if you are not satisfied.
-              </p>
-            </div>
-          </div>
-          <div class="grid">
-            <div class="icon">
-              <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
-            </div>
-            <div class="desc">
-              <h2>Quality Assurance</h2>
-              <p>
-                For every purchase you make, we will ensure there are no damages or
-                faults and we will check and test the pitch of your instrument.
-              </p>
-            </div>
-          </div>
-        </section>
-        <section id="how-it-works">
-          <iframe id="video" height="315" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-        </section>
-        <section id="pricing">
-          <div class="product" id="tenor">
-            <div class="level">Tenor Trombone</div>
-            <h2>$600</h2>
-            <ol>
-              <li>Lorem ipsum.</li>
-              <li>Lorem ipsum.</li>
-              <li>Lorem ipsum dolor.</li>
-              <li>Lorem ipsum.</li>
-            </ol>
-            <button class="btn">Select</button>
-          </div>
-          <div class="product" id="bass">
-            <div class="level">Bass Trombone</div>
-            <h2>$900</h2>
-            <ol>
-              <li>Lorem ipsum.</li>
-              <li>Lorem ipsum.</li>
-              <li>Lorem ipsum dolor.</li>
-              <li>Lorem ipsum.</li>
-            </ol>
-            <button class="btn">Select</button>
-          </div>
-          <div class="product" id="valve">
-            <div class="level">Valve Trombone</div>
-            <h2>$1200</h2>
-            <ol>
-              <li>Plays similar to a Trumpet</li>
-              <li>Great for Jazz Bands</li>
-              <li>Lorem ipsum dolor.</li>
-              <li>Lorem ipsum.</li>
-            </ol>
-            <button class="btn">Select</button>
-          </div>
-        </section>
-        <footer>
-          <ul>
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-          <span>Copyright 2016, Original Trombones</span>
-        </footer>
+  <header id="header">
+    <img src="images/apple-brands.svg" alt="" id="header-img"> <!--company logo -->
+    <nav id="nav-bar">
+      <!-- this are internal links -->
+      <a href="#intro" class="nav-link">About</a>
+      <a href="#features" class="nav-link">Features</a>
+      <a href="#products" class="nav-link">Products</a>
+    </nav>
+  </header>
+  <main>
+    <section id="intro">
+      <div>
+        <p>
+          Apple Inc., formerly Apple Computer, Inc., American manufacturer of personal computers, smartphones, tablet computers, computer peripherals,
+          and computer software. It was the first successful personal computer company and the popularizer of the graphical user interface.
+          Headquarters are located in Cupertino, California.
+        </p>
       </div>
-    </div>
+      <iframe width="695" height="391" src="https://www.youtube.com/embed/9tobL8U7dQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <section id="features">
+      <div>
+        <img src="images/truck-solid.svg" alt="">
+        <h3>Free delivery</h3>
+        <p>And free returns. See checkout for delivery dates</p>
+        <a href="https://www.apple.com/us/shop/goto/shipping_and_returns">Learn more></a>
+      </div>
+      <div>
+        <img src="images/dollar-sign-solid.svg" alt="">
+        <h3>Find the card for you</h3>
+        <p>Get 3% Daily cash with Apple Card or get special financing.</p>
+        <a href="https://www.apple.com/us/shop/goto/payment_plan">Learn more></a>
+      </div>
+    </section>
+    <section id="products">
+      <div class="card">
+        <img src="https://www.apple.com/macbook-pro-13/" alt="MacBook Pro 13" style="width:100%">
+        <h1>MacBook Pro 13</h1>
+        <p class="price">$1299</p>
+        <p>All systems Pro.</p>
+        <p><button>Add to Cart</button></p>
+      </div>
+      <div class="card">
+        <img src="https://www.apple.com/macbook-pro-14-and-16/" alt="MacBook Pro 14" style="width:100%">
+        <h1>MacBook Pro 14</h1>
+        <p class="price">$1999</p>
+        <p>All systems Pro.</p>
+        <p><button>Add to Cart</button></p>
+      </div>
+      <div class="card">
+        <img src="https://www.apple.com/macbook-pro-14-and-16/" alt=" MacBook Pro 16" style="width:100%">
+        <h1>MacBook Pro 16</h1>
+        <p class="price">$2499</p>
+        <p>All systems Pro.</p>
+        <p><button>Add to Cart</button></p>
+      </div>
+                  
+    </section>
+    <section>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Enter your email address" required>
+        <input type="submit" id="submit" value="Get started">
+      </form>
+    </section>
+  </main>
 </body>
 </html>
-
-
