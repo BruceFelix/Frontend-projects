@@ -31,10 +31,16 @@ header h1{
     padding: 10px;
     font: 900;
     font-size: 40px;
+    color: #ffac05de;
 }
 header h5{
     padding: 10px 0 0 10px 0;
-    text-align: center;    
+    text-align: center;  
+    color: #ffac05de;  
+}
+figcaption{
+    color: white;
+    text-align: center;
 }
 #img-div{
     width: 90%;
@@ -42,13 +48,17 @@ header h5{
     margin: 0 auto;
     background-color: #312d2d;
     padding: 20px 100px;
-    color: #F9F6F0;
+    color: #ffac05de;
 }
 #tribute-info{
     margin: 30px auto;    
 }
 #tribute-info h2{
+    color: #ffac05de;
+    border-bottom: 1px solid;
+    width: max-content;
     text-align: center;
+    margin-left: 400px;
 }
 #tribute-info ul{
     text-align: left;    
@@ -64,15 +74,21 @@ ul {
     text-align: left;
     line-height: 1.6;
 }
-  
+.list{
+    display: flex;
+
+}
 li {
     margin: 16px 0;
 }
 blockquote {
     font-style: italic;
     max-width: 545px;
-    margin: 0 auto 50px auto;
+    margin: 0 auto 20px auto;
     text-align: left;
+}
+p{
+    text-align: center;
 }
 footer{
     text-align: center;
