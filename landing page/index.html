@@ -8,68 +8,84 @@
   <title>Product landing page</title>
 </head>
 <body>
-  <header id="header">
-    <img src="images/apple-brands.svg" alt="" id="header-img"> <!--company logo -->
-    <nav id="nav-bar">
+  <header id="header" >
+    <div>
+      <img style="color: white" class="icon brand" src="images/apple-brands.svg" alt="" id="header-img"> <!--company logo -->
+    </div>
+    <nav id="nav-bar" >
       <!-- this are internal links -->
       <a href="#intro" class="nav-link">About</a>
       <a href="#features" class="nav-link">Features</a>
       <a href="#products" class="nav-link">Products</a>
+      <a href="#quotation" class="nav-link">Quotation</a>
     </nav>
   </header>
   <main>
     <section id="intro">
       <div>
+        <h1>Apple Inc.</h1>
         <p>
-          Apple Inc., formerly Apple Computer, Inc., American manufacturer of personal computers, smartphones, tablet computers, computer peripherals,
+          American manufacturer of personal computers, smartphones, tablet computers, computer peripherals,
           and computer software. It was the first successful personal computer company and the popularizer of the graphical user interface.
           Headquarters are located in Cupertino, California.
         </p>
       </div>
       <iframe width="695" height="391" src="https://www.youtube.com/embed/9tobL8U7dQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
+
     <section id="features">
-      <div>
-        <img src="images/truck-solid.svg" alt="">
-        <h3>Free delivery</h3>
-        <p>And free returns. See checkout for delivery dates</p>
-        <a href="https://www.apple.com/us/shop/goto/shipping_and_returns">Learn more></a>
+      <div class="features">
+        <div>
+          <img class="icon" src="images/truck-solid.svg" alt="">
+        </div>
+        <div>
+          <h3>Free delivery</h3>
+          <p>And free returns. See checkout for delivery dates</p>
+          <a href="https://www.apple.com/us/shop/goto/shipping_and_returns">Learn more</a>
+        </div>
       </div>
-      <div>
-        <img src="images/dollar-sign-solid.svg" alt="">
-        <h3>Find the card for you</h3>
-        <p>Get 3% Daily cash with Apple Card or get special financing.</p>
-        <a href="https://www.apple.com/us/shop/goto/payment_plan">Learn more></a>
+      <div class="features">
+        <div>
+          <img class="icon" src="images/dollar-sign-solid.svg" alt="">
+        </div>
+        <div>
+          <h3>Find the card for you</h3>
+          <p>Get 3% Daily cash with Apple Card or get special financing.</p>
+          <a href="https://www.apple.com/us/shop/goto/payment_plan">Learn more</a>
+        </div>
       </div>
     </section>
     <section id="products">
       <div class="card">
-        <img src="https://www.apple.com/macbook-pro-13/" alt="MacBook Pro 13" style="width:100%">
+        <img class="product" src="images/mac 14.jpg" alt="MacBook Pro 13" style="width:100%">
         <h1>MacBook Pro 13</h1>
-        <p class="price">$1299</p>
+        <p class="price"><span><img src="images/dollar-sign-solid.svg" alt=""></span>$1299</p>
         <p>All systems Pro.</p>
-        <p><button>Add to Cart</button></p>
+        <button>Add to Cart</button>
       </div>
       <div class="card">
-        <img src="https://www.apple.com/macbook-pro-14-and-16/" alt="MacBook Pro 14" style="width:100%">
+        <img class="product" src="images/mac 14.jpg" alt="MacBook Pro 14" style="width:100%">
         <h1>MacBook Pro 14</h1>
-        <p class="price">$1999</p>
+        <p class="price"><span><img src="images/dollar-sign-solid.svg" alt=""></span>$1999</p>
         <p>All systems Pro.</p>
-        <p><button>Add to Cart</button></p>
+        <button>Add to Cart</button>
       </div>
       <div class="card">
-        <img src="https://www.apple.com/macbook-pro-14-and-16/" alt=" MacBook Pro 16" style="width:100%">
+        <img class="product" src="images/mac 14.jpg" alt=" MacBook Pro 16" style="width:100%">
         <h1>MacBook Pro 16</h1>
-        <p class="price">$2499</p>
+        <p class="price"><span><img src="images/dollar-sign-solid.svg" alt=""></span>$2499</p>
         <p>All systems Pro.</p>
-        <p><button>Add to Cart</button></p>
+        <button>Add to Cart</button>
       </div>
                   
     </section>
-    <section>
+    <section id="quotation">
       <form action="https://www.freecodecamp.com/email-submit" id="form">
-        <label for="email">Email</label>
-        <input type="email" name="email" placeholder="Enter your email address" required>
+        <legend>To get quotations</legend>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" name="email" placeholder="Enter your email address" required><br>
+        </div>
         <input type="submit" id="submit" value="Get started">
       </form>
     </section>

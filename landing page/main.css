@@ -1,9 +1,215 @@
+/* Global styles*/
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-#nav-bar{
+body{
+  background-color: rgb(252, 250, 250);
+}
+.icon{
+  width: 40px;
+  height: 40px;
+}
+a{
+  text-decoration: none;
+}
+section{
+  margin-top: 50px;
+}
+/*Global styles*/
+/*header styles*/
+#header{
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   top: 0;
   position: fixed;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.brand{
+  margin-left: 20px;
+}
+#nav-bar{
+  margin-right: 30px;
+}
+#nav-bar a{
+  color: white;
+  font-size: larger;
+  padding: 12px 30px;
+  font-weight: 600;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#nav-bar a:hover{
+  background-color: white;
+  color: black;
+  transition: .4s;
+}
+
+/* main styles */
+#intro{
+  display: flex;
+  justify-content: space-around;
+  scroll-margin-top: 3rem;
+}
+#intro div{
+  flex-basis: 60%;
+  margin: 0 20px;
+  font-size: 20px;
+  margin-top: 60px;
+
+}
+#intro div h1{
+  border-bottom: 1px solid black;
+  max-width: max-content;
+  margin-left: 250px;
+  margin-bottom: 20px;
+}
+#intro div p{
+  /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  line-height: 3rem;
+  font-size: 24px;
+  line-break:loose;
+  font-weight: 300px;
+}
+#intro iframe{
+  margin: 0 20px;
+  border-radius: 14px;
+}
+
+#features{
+  display: flex;
+  justify-content: space-evenly;
+  height: 300px;
+  align-items: center;
+}
+.features{
+  width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.features .icon{
+  height: 100px;
+  width: 100px;
+}
+.features div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100px;
+}
+.features div a{
+  font-size: larger;
+  color: rgb(24, 4, 4);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+.features div h3{
+  font-size: 20px;
+  font-family: cursive;
+  font-weight: 900;
+  font-style: oblique;
+}
+.features div p{
+  font-family: cursive;
+
+}
+#products{
+  display: flex;
+  justify-content: space-around;
+}
+.product{
+  width: 200px;
+  height: 300px;
+  padding: 10px;
+  border-radius:  15px 15px 0 0 ;
+}
+.card{
+  width: 400px;
+  /* height: 450px; */
+  margin: 10px;
+  border-radius: 14px 14px 0 0 ;
+  box-shadow:4px 5px 4px 3px rgb(206, 197, 197);
+  flex-basis: 29%;
+}
+.card h1{
+  border-bottom: 1px solid black;
+  width: max-content;
+  margin: 0 0 20px 10px;
+}
+span img{
+  width: 15px;
+  height: 15px;
+}
+.price{
+  font-style: italic;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.card p{
+  font-size: 18px;
+  margin: 10px;
+}
+button{
+  color: white;
+  background-color: darkorange;
+  border: none;
+  padding: 10px 0;
+  width: 100%;
+  font-size: 19px;
+}
+form{
+  width: 100%;
+  margin: 20px 0 20px 0;
+  height: max-content;
+  background-color: rgba(0, 0, 0, 0.98);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+legend{
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  border-bottom: 1px solid white;
+  width: max-content;
+  margin: 0 0 10px 550px;
+}
+label{
+  color: white;
+  font-size: larger;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+form div{
+  margin-left: 400px;
+  width: 70%;
+}
+input[type=email]{
+  width: 50%;
+  outline-color: chocolate;
+  padding: 4px;
+  border-radius: 5px;
+  border: none;
+}
+input::placeholder{
+  color: black;
+  font-size: 14px;
+}
+input[type=submit]{
+  width: 20%;
+  padding: 8px;
+  background-color: darkorange;
+  border: none;
+  margin: 10px 500px;
+  border-radius: 15px;
+  font-size: 19px;
+  color: white;
+}
+input[type=submit]:hover{
+  background-color: rgb(255, 255, 255);
+  color: black;
 }
